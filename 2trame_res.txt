@@ -1,0 +1,144 @@
+Ethernet:
+	Destination: f0:18:98:59:ae:32
+	Source: 84:b8:02:5a:59:40
+	Type: 0x0800(IPv4)
+IP:
+	Version: 0x4(IPv4)
+	Header length: 0x5(20 bytes)
+	Type of service: 0x00
+	Total length: 0x015e(350)
+	Identifier: 0x78aa(30890)
+	Flags: 
+		R: 0
+		DF: 0
+		MF: 0
+		Offset: 0x0(0)
+	Time To Live: 0x3f(63)
+	Protocol: UDP(17)
+	Checksum: 0x3e1d
+	Address Source: 0x84e33c1e
+	Adresse Destination: 0x84e37de3
+UDP:
+	Source Port: 0x0035(53)
+	Destination Port: 0xc305(49925)
+	Length: 0x014a(330)
+	Checksum: 0xde95
+DNS: 
+	Transaction ID: 0x9fe9
+	Flags: 0x8180
+		1... .... .... .... = Response: Message is a response
+		.000 0... .... .... = Opcode: Standard query(0)
+		.... .0.. .... .... = Authoritative Answer: Server is not an authority for domain
+		.... ..0. .... .... = Truncated: Message is not truncated
+		.... ...1 .... .... = Recursion desired: Do query recursively
+		.... .... 1... .... = Recursion Available: Sever can do recursive queries
+		.... .... .000 .... = Z: Reserved(0)
+		.... .... .... 0000 = Reply Code: No Error(0)
+	Question: 1
+	Answer RRs: 2
+	Authority RRs: 4
+	Additional RRs: 8
+	Queries: 
+		www.facebook.com.: type A, class In
+			name: www.facebook.com.
+			[Name length: 16]
+			[Label Length: 3]
+			Type: A(1)
+			class: In(0x0001)
+	Answers: 
+		www.facebook.com.: type CNAME, class In
+			name: www.facebook.com.
+			Type: CNAME(5)
+			class: In(0x0001)
+			Time to live: 44(0.0005092592592592592 days 0.012222222222222223 hours 0.7333333333333333 minutes 44 seconds)
+			Data length: 0x0011(17)
+			CNAME: star-mini.c10r.facebook.com.
+		star-mini.c10r.facebook.com.: type A, class In
+			name: star-mini.c10r.facebook.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 60(0.0006944444444444445 days 0.016666666666666666 hours 1.0 minutes 0 seconds)
+			Data length: 0x0004(4)
+			Address: 9df0c423
+	Authoritative nameserver: 
+		c10r.facebook.com.: type NS, class In
+			name: c10r.facebook.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 44(0.0005092592592592592 days 0.012222222222222223 hours 0.7333333333333333 minutes 44 seconds)
+			Data length: 0x0007(7)
+			Name Server: d.ns.c10r.facebook.com.
+		c10r.facebook.com.: type NS, class In
+			name: c10r.facebook.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 44(0.0005092592592592592 days 0.012222222222222223 hours 0.7333333333333333 minutes 44 seconds)
+			Data length: 0x0004(4)
+			Name Server: c.ns.c10r.facebook.com.
+		c10r.facebook.com.: type NS, class In
+			name: c10r.facebook.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 44(0.0005092592592592592 days 0.012222222222222223 hours 0.7333333333333333 minutes 44 seconds)
+			Data length: 0x0004(4)
+			Name Server: a.ns.c10r.facebook.com.
+		c10r.facebook.com.: type NS, class In
+			name: c10r.facebook.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 44(0.0005092592592592592 days 0.012222222222222223 hours 0.7333333333333333 minutes 44 seconds)
+			Data length: 0x0004(4)
+			Name Server: b.ns.c10r.facebook.com.
+	Additinal records: 
+		a.ns.c10r.facebook.com.: type A, class In
+			name: a.ns.c10r.facebook.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 170(0.0019675925925925924 days 0.04722222222222222 hours 2.8333333333333335 minutes 50 seconds)
+			Data length: 0x0004(4)
+			Address: 81861e0b
+		b.ns.c10r.facebook.com.: type A, class In
+			name: b.ns.c10r.facebook.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 170(0.0019675925925925924 days 0.04722222222222222 hours 2.8333333333333335 minutes 50 seconds)
+			Data length: 0x0004(4)
+			Address: 81861f0b
+		d.ns.c10r.facebook.com.: type A, class In
+			name: d.ns.c10r.facebook.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 170(0.0019675925925925924 days 0.04722222222222222 hours 2.8333333333333335 minutes 50 seconds)
+			Data length: 0x0004(4)
+			Address: b959db0b
+		c.ns.c10r.facebook.com.: type A, class In
+			name: c.ns.c10r.facebook.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 170(0.0019675925925925924 days 0.04722222222222222 hours 2.8333333333333335 minutes 50 seconds)
+			Data length: 0x0004(4)
+			Address: b959da0b
+		a.ns.c10r.facebook.com.: type Unknown, class In
+			name: a.ns.c10r.facebook.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 170(0.0019675925925925924 days 0.04722222222222222 hours 2.8333333333333335 minutes 50 seconds)
+			Data length: 0x0010(16)
+		b.ns.c10r.facebook.com.: type Unknown, class In
+			name: b.ns.c10r.facebook.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 170(0.0019675925925925924 days 0.04722222222222222 hours 2.8333333333333335 minutes 50 seconds)
+			Data length: 0x0010(16)
+		d.ns.c10r.facebook.com.: type Unknown, class In
+			name: d.ns.c10r.facebook.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 170(0.0019675925925925924 days 0.04722222222222222 hours 2.8333333333333335 minutes 50 seconds)
+			Data length: 0x0010(16)
+		c.ns.c10r.facebook.com.: type Unknown, class In
+			name: c.ns.c10r.facebook.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 170(0.0019675925925925924 days 0.04722222222222222 hours 2.8333333333333335 minutes 50 seconds)
+			Data length: 0x0010(16)

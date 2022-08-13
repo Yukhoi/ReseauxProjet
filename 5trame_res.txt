@@ -1,0 +1,25 @@
+Ethernet:
+	Destination: 84:b8:02:5a:59:40
+	Source: f0:18:98:59:ae:32
+	Type: 0x0800(IPv4)
+IP:
+	Version: 0x4(IPv4)
+	Header length: 0x5(20 bytes)
+	Type of service: 0x00
+	Total length: 0x003e(62)
+	Identifier: 0x518f(20879)
+	Flags: 
+		R: 0
+		DF: 0
+		MF: 0
+		Offset: 0x0(0)
+	Time To Live: 0x40(64)
+	Protocol: UDP(17)
+	Checksum: 0x6558
+	Address Source: 0x84e37de3
+	Adresse Destination: 0x84e33c1e
+UDP:
+	Source Port: 0xebcd(60365)
+	Destination Port: 0x0035(53)
+	Length: 0x002a(42)
+	Checksum: 0x0a1d

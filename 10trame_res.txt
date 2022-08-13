@@ -1,0 +1,201 @@
+Ethernet:
+	Destination: f0:18:98:59:ae:32
+	Source: 84:b8:02:5a:59:40
+	Type: 0x0800(IPv4)
+IP:
+	Version: 0x4(IPv4)
+	Header length: 0x5(20 bytes)
+	Type of service: 0x00
+	Total length: 0x0208(520)
+	Identifier: 0x5fdf(24543)
+	Flags: 
+		R: 0
+		DF: 0
+		MF: 0
+		Offset: 0x0(0)
+	Time To Live: 0x3f(63)
+	Protocol: UDP(17)
+	Checksum: 0x563e
+	Address Source: 0x84e33c1e
+	Adresse Destination: 0x84e37de3
+UDP:
+	Source Port: 0x0035(53)
+	Destination Port: 0xe998(59800)
+	Length: 0x01f4(500)
+	Checksum: 0xe924
+DNS: 
+	Transaction ID: 0x5818
+	Flags: 0x8180
+		1... .... .... .... = Response: Message is a response
+		.000 0... .... .... = Opcode: Standard query(0)
+		.... .0.. .... .... = Authoritative Answer: Server is not an authority for domain
+		.... ..0. .... .... = Truncated: Message is not truncated
+		.... ...1 .... .... = Recursion desired: Do query recursively
+		.... .... 1... .... = Recursion Available: Sever can do recursive queries
+		.... .... .000 .... = Z: Reserved(0)
+		.... .... .... 0000 = Reply Code: No Error(0)
+	Question: 1
+	Answer RRs: 5
+	Authority RRs: 4
+	Additional RRs: 14
+	Queries: 
+		google.com.: type Unknown, class In
+			name: google.com.
+			[Name length: 10]
+			[Label Length: 2]
+			Type: Unknown(15)
+			class: In(0x0001)
+	Answers: 
+		google.com.: type Unknown, class In
+			name: google.com.
+			Type: Unknown(15)
+			class: In(0x0001)
+			Time to live: 600(0.006944444444444444 days 0.16666666666666666 hours 10.0 minutes 0 seconds)
+			Data length: 0x000c(12)
+		google.com.: type Unknown, class In
+			name: google.com.
+			Type: Unknown(15)
+			class: In(0x0001)
+			Time to live: 600(0.006944444444444444 days 0.16666666666666666 hours 10.0 minutes 0 seconds)
+			Data length: 0x0009(9)
+		google.com.: type Unknown, class In
+			name: google.com.
+			Type: Unknown(15)
+			class: In(0x0001)
+			Time to live: 600(0.006944444444444444 days 0.16666666666666666 hours 10.0 minutes 0 seconds)
+			Data length: 0x0009(9)
+		google.com.: type Unknown, class In
+			name: google.com.
+			Type: Unknown(15)
+			class: In(0x0001)
+			Time to live: 600(0.006944444444444444 days 0.16666666666666666 hours 10.0 minutes 0 seconds)
+			Data length: 0x0009(9)
+		google.com.: type Unknown, class In
+			name: google.com.
+			Type: Unknown(15)
+			class: In(0x0001)
+			Time to live: 600(0.006944444444444444 days 0.16666666666666666 hours 10.0 minutes 0 seconds)
+			Data length: 0x0009(9)
+	Authoritative nameserver: 
+		google.com.: type NS, class In
+			name: google.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 142981(1.6548726851851852 days 15.716944444444444 hours 43.016666666666666 minutes 1 seconds)
+			Data length: 0x0006(6)
+			Name Server: ns4.google.com.
+		google.com.: type NS, class In
+			name: google.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 142981(1.6548726851851852 days 15.716944444444444 hours 43.016666666666666 minutes 1 seconds)
+			Data length: 0x0006(6)
+			Name Server: ns1.google.com.
+		google.com.: type NS, class In
+			name: google.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 142981(1.6548726851851852 days 15.716944444444444 hours 43.016666666666666 minutes 1 seconds)
+			Data length: 0x0006(6)
+			Name Server: ns3.google.com.
+		google.com.: type NS, class In
+			name: google.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 142981(1.6548726851851852 days 15.716944444444444 hours 43.016666666666666 minutes 1 seconds)
+			Data length: 0x0006(6)
+			Name Server: ns2.google.com.
+	Additinal records: 
+		alt4.aspmx.l.google.com.: type A, class In
+			name: alt4.aspmx.l.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0004(4)
+			Address: 8efa9d1a
+		alt2.aspmx.l.google.com.: type A, class In
+			name: alt2.aspmx.l.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0004(4)
+			Address: 8efa961a
+		aspmx.l.google.com.: type A, class In
+			name: aspmx.l.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0004(4)
+			Address: adc24c1a
+		alt3.aspmx.l.google.com.: type A, class In
+			name: alt3.aspmx.l.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0004(4)
+			Address: 4a7dc81a
+		alt1.aspmx.l.google.com.: type A, class In
+			name: alt1.aspmx.l.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0004(4)
+			Address: 8efb091a
+		ns2.google.com.: type A, class In
+			name: ns2.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 9315(0.1078125 days 2.5875 hours 35.25 minutes 15 seconds)
+			Data length: 0x0004(4)
+			Address: d8ef220a
+		ns1.google.com.: type A, class In
+			name: ns1.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 93402(1.0810416666666667 days 1.945 hours 56.7 minutes 42 seconds)
+			Data length: 0x0004(4)
+			Address: d8ef200a
+		ns3.google.com.: type A, class In
+			name: ns3.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 9315(0.1078125 days 2.5875 hours 35.25 minutes 15 seconds)
+			Data length: 0x0004(4)
+			Address: d8ef240a
+		ns4.google.com.: type A, class In
+			name: ns4.google.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 93402(1.0810416666666667 days 1.945 hours 56.7 minutes 42 seconds)
+			Data length: 0x0004(4)
+			Address: d8ef260a
+		alt4.aspmx.l.google.com.: type Unknown, class In
+			name: alt4.aspmx.l.google.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0010(16)
+		alt2.aspmx.l.google.com.: type Unknown, class In
+			name: alt2.aspmx.l.google.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0010(16)
+		aspmx.l.google.com.: type Unknown, class In
+			name: aspmx.l.google.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0010(16)
+		alt3.aspmx.l.google.com.: type Unknown, class In
+			name: alt3.aspmx.l.google.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0010(16)
+		alt1.aspmx.l.google.com.: type Unknown, class In
+			name: alt1.aspmx.l.google.com.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 293(0.0033912037037037036 days 0.08138888888888889 hours 4.883333333333334 minutes 53 seconds)
+			Data length: 0x0010(16)

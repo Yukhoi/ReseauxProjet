@@ -1,0 +1,144 @@
+Ethernet:
+	Destination: f0:18:98:59:ae:32
+	Source: 84:b8:02:5a:59:40
+	Type: 0x0800(IPv4)
+IP:
+	Version: 0x4(IPv4)
+	Header length: 0x5(20 bytes)
+	Type of service: 0x00
+	Total length: 0x0178(376)
+	Identifier: 0x6b8f(27535)
+	Flags: 
+		R: 0
+		DF: 0
+		MF: 0
+		Offset: 0x0(0)
+	Time To Live: 0x3f(63)
+	Protocol: UDP(17)
+	Checksum: 0x4b1e
+	Address Source: 0x84e33c1e
+	Adresse Destination: 0x84e37de3
+UDP:
+	Source Port: 0x0035(53)
+	Destination Port: 0xd652(54866)
+	Length: 0x0164(356)
+	Checksum: 0x95de
+DNS: 
+	Transaction ID: 0x2fd1
+	Flags: 0x8180
+		1... .... .... .... = Response: Message is a response
+		.000 0... .... .... = Opcode: Standard query(0)
+		.... .0.. .... .... = Authoritative Answer: Server is not an authority for domain
+		.... ..0. .... .... = Truncated: Message is not truncated
+		.... ...1 .... .... = Recursion desired: Do query recursively
+		.... .... 1... .... = Recursion Available: Sever can do recursive queries
+		.... .... .000 .... = Z: Reserved(0)
+		.... .... .... 0000 = Reply Code: No Error(0)
+	Question: 1
+	Answer RRs: 2
+	Authority RRs: 4
+	Additional RRs: 8
+	Queries: 
+		www.dropbox.com.: type A, class In
+			name: www.dropbox.com.
+			[Name length: 15]
+			[Label Length: 3]
+			Type: A(1)
+			class: In(0x0001)
+	Answers: 
+		www.dropbox.com.: type CNAME, class In
+			name: www.dropbox.com.
+			Type: CNAME(5)
+			class: In(0x0001)
+			Time to live: 57(0.0006597222222222222 days 0.015833333333333335 hours 0.95 minutes 57 seconds)
+			Data length: 0x0016(22)
+			CNAME: www-env.dropbox-dns.com.
+		www-env.dropbox-dns.com.: type A, class In
+			name: www-env.dropbox-dns.com.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 57(0.0006597222222222222 days 0.015833333333333335 hours 0.95 minutes 57 seconds)
+			Data length: 0x0004(4)
+			Address: a27d4312
+	Authoritative nameserver: 
+		dropbox-dns.com.: type NS, class In
+			name: dropbox-dns.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 159611(1.847349537037037 days 20.336388888888887 hours 20.183333333333334 minutes 11 seconds)
+			Data length: 0x0014(20)
+			Name Server: dns2.p06.nsone.net.
+		dropbox-dns.com.: type NS, class In
+			name: dropbox-dns.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 159611(1.847349537037037 days 20.336388888888887 hours 20.183333333333334 minutes 11 seconds)
+			Data length: 0x0007(7)
+			Name Server: dns4.p06.nsone.net.
+		dropbox-dns.com.: type NS, class In
+			name: dropbox-dns.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 159611(1.847349537037037 days 20.336388888888887 hours 20.183333333333334 minutes 11 seconds)
+			Data length: 0x0007(7)
+			Name Server: dns3.p06.nsone.net.
+		dropbox-dns.com.: type NS, class In
+			name: dropbox-dns.com.
+			Type: NS(2)
+			class: In(0x0001)
+			Time to live: 159611(1.847349537037037 days 20.336388888888887 hours 20.183333333333334 minutes 11 seconds)
+			Data length: 0x0007(7)
+			Name Server: dns1.p06.nsone.net.
+	Additinal records: 
+		dns1.p06.nsone.net.: type A, class In
+			name: dns1.p06.nsone.net.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 75509(0.8739467592592592 days 20.974722222222223 hours 58.483333333333334 minutes 29 seconds)
+			Data length: 0x0004(4)
+			Address: c6332c06
+		dns2.p06.nsone.net.: type A, class In
+			name: dns2.p06.nsone.net.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 82833(0.9587152777777778 days 23.009166666666665 hours 0.55 minutes 33 seconds)
+			Data length: 0x0004(4)
+			Address: c6332d06
+		dns3.p06.nsone.net.: type A, class In
+			name: dns3.p06.nsone.net.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 75509(0.8739467592592592 days 20.974722222222223 hours 58.483333333333334 minutes 29 seconds)
+			Data length: 0x0004(4)
+			Address: c6332c46
+		dns4.p06.nsone.net.: type A, class In
+			name: dns4.p06.nsone.net.
+			Type: A(1)
+			class: In(0x0001)
+			Time to live: 82833(0.9587152777777778 days 23.009166666666665 hours 0.55 minutes 33 seconds)
+			Data length: 0x0004(4)
+			Address: c6332d46
+		dns1.p06.nsone.net.: type Unknown, class In
+			name: dns1.p06.nsone.net.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 75509(0.8739467592592592 days 20.974722222222223 hours 58.483333333333334 minutes 29 seconds)
+			Data length: 0x0010(16)
+		dns2.p06.nsone.net.: type Unknown, class In
+			name: dns2.p06.nsone.net.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 82833(0.9587152777777778 days 23.009166666666665 hours 0.55 minutes 33 seconds)
+			Data length: 0x0010(16)
+		dns3.p06.nsone.net.: type Unknown, class In
+			name: dns3.p06.nsone.net.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 75509(0.8739467592592592 days 20.974722222222223 hours 58.483333333333334 minutes 29 seconds)
+			Data length: 0x0010(16)
+		dns4.p06.nsone.net.: type Unknown, class In
+			name: dns4.p06.nsone.net.
+			Type: Unknown(28)
+			class: In(0x0001)
+			Time to live: 82833(0.9587152777777778 days 23.009166666666665 hours 0.55 minutes 33 seconds)
+			Data length: 0x0010(16)
